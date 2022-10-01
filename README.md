@@ -1,122 +1,80 @@
-<!--- 
-Open Source Assistive Technology: GitHub Readme Template
- --->
+# Can Stabilizer
+The Can Stabilizer is a 3D printed aid that helps stabilize a beverage can. This version of the device is intended for standard 211 cans with a diameter of 66 mm (e.g., 355 mL / 12 Oz). The stabilizer makes it easier for those with limited hand dexterity to open the can or form a secure grip with less chance of the can spilling over.
 
-<!---
-INSTRUCTIONS
-This is a markdown template for creating the README.md file in a GitHub repository. This file is rendered and displayed automatically when someone visits the repository.
+<img src="Photos/Can-Stabilizer.jpg" width="500" alt="Picture of a beverage can being stabilized and held within a Can Stabilizer made of red 3D printed filament. ">
 
-This document includes helper text that will not be displayed when rendered. Any text between the less-than sign + exclamation mark + three hyphen-minus (<!---) and matching three hyphen-minus + greater-than sign will not be displayed. This helper text can be deleted once the corresponding section is completed.
-
- --->
- 
- <!--- 
-TITLE
-Should match the name of the GitHub repository. Choose something descriptive rather than whimsical. 
- --->
- # (todo:Project Title)
-
-<!--- 
-SUMMARY
-A brief summary of the project. What it does, who it is for, how much it costs.
- --->
-The (todo:Project Title) is for making it easier to document Open-Source Assistive Technology devices. It is intended for use by makers. The device is  comprised of off-the-shelf electronics and 3D printed parts. The overall cost of materials is about $8 (plus $8 for component shipping).
-
-<!--- 
-PHOTO
-
- --->
-![Image Description](Photos/Device_Photo.jpg)
-
-<!--- 
 ## More info at
- - [Makers Making Change Forum Thread](TBD) 
- - [Makers Making Change Project Page](TBD)
- --->
+- [Makers Making Change Project Page](https://makersmakingchange.com/project/can-stabilizer/ )
+
+
+## How to Obtain a Can Stabilizer
+### 1. Do it Yourself (DIY) or Do it Together (DIT)
+
+This is an open-source assistive technology, so anyone is free to build it. All of the files and instructions required to build the Can Stabilizer are contained within this repository. Refer to the Maker Guide below.
+
+### 2. Request a build of this device
+
+If you would like to obtain a Can Stabilizer , you may submit a build request through the [MMC Library Page](https://makersmakingchange.com/project/can-stabilizer/). The requestor is responsible for the cost of materials and any shipping.
+
+### 3. How to build this device for someone else
+
+If you have the skills and equipment to build this device, and would like to donate your time to create the switch for someone who needs it, visit the [MMC Maker Wanted](https://makersmakingchange.com/maker-wanted/) section.
 
 
 ## Getting Started
-<!--- 
-Include an overall idea of what major steps are required to build the device.
- --->
 
-### 1. Order the Off-The-Shelf Components
-The [Bill of Materials](/Documentation/ProductTitle_BOM_v0.1.xlsx) lists all of the parts and components required to build the (todo:Project Title). The electronic components may be available locally, but will probably need to be ordered online. 
+### 1. Read the Makers Guide
+
+All of the information to create the Can Stabilizer is contained within the Makers Guide.
 
 ### 2. Print the 3D Printable components
-Print the components for the switch tester case and choose an option for the case.
 
-All of the files and individual print files can be in the [/Build_Files/3D_Printing_Files](/Build_Files/3D_Printing/) folder.
+The Can Stabilizer consists of a single 3D printed component.
 
-### 3. Assemble the (todo:Product Title)
-Reference the [assembly guide](/Documentation/ProductTitle_Assembly_Guide_v1.0.pdf) for the tools and steps required to build each portion.
+Te files can can be found in the [/Build_Files/3D_Printing_Files](/Build_Files/3D_Printing/) folder.
+
 
 ## Files
-<!---
-FILES
-This section includes all the information and files required to build and modify the device, including documentation, design files, and build files. 
---->
-
 ### Documentation
-<!---
-DOCUMENTATION
-
---->
-| Document | Version | Link |
-|----------|---------|------|
-| Design Specifications| 1.0 | [ProjectTitle_Design_Specifications](/Documentation/ProjectTitle_Design_Rationale_v0.1.pdf) |
-| Design Rationale     | 1.0 | [ProjectTitle_Design_Rationale](/Documentation/ProjectTitle_Design_Rationale_v0.1.pdf) |
-| Bill of Materials    | 1.0 | [ProjectTitle_BOM](/Documentation/ProjectTitle_BOM_v0.1.xlsx) |
-| Assembly Guide       | 1.0 | [ProjectTitle_Instructions](/Documentation/ProjectTitle_Assembly_Guide_v0.1.pdf) |
-| Maker Checklist      | 1.0 | [ProjectTitle_Checklist](/Documentation/ProjectTitle_Maker_Checklist_v0.1.pdf) |
-| User Quick Guide          | 1.0 | [ProjectTitle_Quick_Guide](/Documentation/ProjectTitle_Quick_Guide_v0.1.pdf)           |
-| Changelog            | 1.0 | [ProjectTitle_Changelog](/Documentation/ProjectTitle_Changelog_v0.1.pdf)               |
+| Document             | Version | Link |
+|----------------------|---------|------|
+| Design Rationale     | 1.0     | [Can_Stabilizer_Design_Rationale](/Documentation/Can_Stabilizer_Design_Rationale_v1.0.pdf)     |
+| Maker Guide      | 1.0     | [Can_Stabilizer_Maker_Guide](/Documentation/Can_Stabilizer_Maker_Guide_v1.0.pdf)     |
+| Bill of Materials    | 1.0     | [Can_Stabilizer_Bill_of_Materials](/Documentation/Can_Stabilizer_BOM_v1.0.xlsx)     |
+| User Guide           | 1.0     | [Can_Stabilizer_User_Guide](/Documentation/Can_Stabilizer_User_Guide_v1.0.pdf)    |
+| Changelog            | 1.0     | [Can_Stabilizer_Changelog](/Documentation/Can_Stabilizer_Changelog_v1.0.pdf)     |
 
 ### Design Files
-<!---
-DESIGN FILES
-If possible, include a copy of original design files to facilitate easy editing and customization.
---->
- - [CAD Files](/Design_Files/CAD)
- - [PCB Files](/Design_Files/PCB)
+ - [CAD Files](/Design_Files)
 
 ### Build Files
-<!---
-BUILD FILES
-This section i
---->
  - [3D Printing Files](/Build_Files/3D_Printing)
- - [Custom PCB Files](/Build_Files/Custom_PCB)
- - [V1.0 3MF](/Build_Files/3D_Printing/ProductTitle_v1.0.3mf)
-
-## License
-<!---
-LICENSE
-Choose an appropriate license. We recommend an open-source hardware compatible license.
---->
-Everything needed or used to design, make, test, or prepare the (todo: Project Title) is licensed under the CERN 2.0 Permissive license <https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2> (CERN-OHL-P).
-
-Accompanying material such as instruction manuals, videos, and other copyrightable works that are useful but not necessary to design, make, test, or prepare the (todo: Project Title) are published under a Creative Commons Attribution-ShareAlike 4.0 license <https://creativecommons.org/licenses/by-sa/4.0/> (CC BY-SA 4.0).
 
 ## Attribution
-<!---
-ATTRIBUTION
-Include any information related to the development of the design. This may include who identified the initial challenge, who contributed to the design
---->
+ - Design: Mark Fuglevand.
+ - Documentation: Neil Squire / Makers Making Change.
 
+
+## License
+The Can Stablizer is published under a Creative Commons Attribution-ShareAlike 4.0 license https://creativecommons.org/licenses/by-sa/4.0/ (CC BY-SA 4.0).
+
+
+---
 
 ## About Makers Making Change
 <img src="https://www.makersmakingchange.com/wp-content/uploads/logo/mmc_logo.svg" width="500" alt="Makers Making Change Logo">
 
-Makers Making Change is an initiative of [Neil Squire](https://www.neilsquire.ca/), a Canadian non-profit that uses technology, knowledge, and passion to empower people with disabilities.
+Makers Making Change is an initiative of [Neil Squire](https://www.neilsquire.ca/), a Canadian non-profit that helps people with disabilities.
 
-We are committed to cultivating a network of volunteer makers who support people with disabilities in their communities through cost effective assistive technology. Check out our library of free, open-source assistive technologies.
+We are committed to creating a network of volunteer makers who support people with disabilities in their communities through 3D printing assistive devices. Check out our library of free, open-source assistive technologies with parts and build instructions.
 
  - Website: [www.MakersMakingChange.com](https://www.makersmakingchange.com/)
- - [GitHub](https://github.com/makersmakingchange)
- - [Thingiverse](https://www.thingiverse.com/makersmakingchange/about)
+ - GitHub: [https://github.com/makersmakingchange](https://github.com/makersmakingchange)
  - Twitter: [@makermakechange](https://twitter.com/makermakechange)
  - Instagram: [@makersmakingchange](https://www.instagram.com/makersmakingchange)
 
-### Contact Us
-For technical questions, to get involved, or to share your experience we encourage you to visit [MMC Forum](https://forum.makersmakingchange.com) or contact info@makersmakingchange.com
+
+
+## Contact Us
+
+For technical questions, to get involved, or share your experience we encourage you to visit the [MMC Website](https://www.makersmakingchange.com/), [MMC Forum](https://makersmakingchange.com/forum), or contact info@makersmakingchange.com
