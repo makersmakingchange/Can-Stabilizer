@@ -60,7 +60,7 @@ The Can Stablizer is published under a Creative Commons Attribution-ShareAlike 4
 
 
 ---
-
+<!-- ABOUT MMC START -->
 ## About Makers Making Change
 <img src="https://www.makersmakingchange.com/wp-content/uploads/logo/mmc_logo.svg" width="500" alt="Makers Making Change Logo">
 
@@ -78,3 +78,5 @@ We are committed to creating a network of volunteer makers who support people wi
 ## Contact Us
 
 For technical questions, to get involved, or share your experience we encourage you to visit the [MMC Website](https://www.makersmakingchange.com/), [MMC Forum](https://makersmakingchange.com/forum), or contact info@makersmakingchange.com
+
+<!-- ABOUT MMC END -->
